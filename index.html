@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/contact.png" alt="logo contatos">
+            <h1>Contatos</h1>
+        </header>
+
+        <form id="form-contact">
+            <input id="nome-contato" type="text" required placeholder="Nome do contato">
+            <input id="numero-contato" type="number" required placeholder="(21)91234-5678" >
+            <button type="submit">+</button>
+        </form>
+        <span id="message-error-num">O número não está completo.</span>
+        <span id="message-error-con">O número já está adicionado a sua lista de contatos</span>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Número do contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--<tr>
+                    <td><b>Jão</b></td>
+                    <td>21966989636</td>
+                </tr>-->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
